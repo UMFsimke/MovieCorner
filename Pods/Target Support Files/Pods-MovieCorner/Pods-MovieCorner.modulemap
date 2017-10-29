@@ -1,0 +1,6 @@
+framework module Pods_MovieCorner {
+  umbrella header "Pods-MovieCorner-umbrella.h"
+
+  export *
+  module * { export * }
+}
