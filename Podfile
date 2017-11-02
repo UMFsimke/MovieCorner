@@ -6,5 +6,5 @@ target 'MovieCorner' do
   use_frameworks!
 
   # Pods for MovieCorner
-
+  pod 'SwiftyJSON', '~> 3.1'
 end
