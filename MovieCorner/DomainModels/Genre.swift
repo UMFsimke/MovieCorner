@@ -1,8 +1,8 @@
 import Foundation
 
 struct Genre {
-    let id: Int
-    let name: String
+    let id: Int?
+    let name: String?
 }
 
 //MARK: JSON Decodable
@@ -10,7 +10,7 @@ struct Genre {
 extension Genre: JSONDecodable {
 
     static func decode(_ json: JSON) throws -> Genre {
-        return Genre(id: json["id"].intValue,
-                     name: json["name"].stringValue)
+        return Genre(id: json["id"].int,
+                     name: json["name"].string)
     }
 }

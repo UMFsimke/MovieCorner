@@ -1,9 +1,9 @@
 struct Collection {
-    let id: Int
-    let name: String
-    let overview: String
+    let id: Int?
+    let name: String?
+    let overview: String?
     let posterPath: String?
-    let backdropPath: String
+    let backdropPath: String?
     //TODO: add parts
 }
 
@@ -12,10 +12,10 @@ struct Collection {
 extension Collection: JSONDecodable {
     
     static func decode(_ json: JSON) throws -> Collection {
-        return Collection(id: json["id"].intValue,
-                          name: json["name"].stringValue,
-                          overview: json["overview"].stringValue,
+        return Collection(id: json["id"].int,
+                          name: json["name"].string,
+                          overview: json["overview"].string,
                           posterPath: json["poster_path"].string,
-                          backdropPath: json["backdrop_path"].stringValue)
+                          backdropPath: json["backdrop_path"].string)
     }
 }

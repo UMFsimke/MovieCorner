@@ -1,8 +1,8 @@
 import Foundation
 
 struct ProductionCompany {
-    let id: Int
-    let name: String
+    let id: Int?
+    let name: String?
 }
 
 
@@ -11,7 +11,7 @@ struct ProductionCompany {
 extension ProductionCompany: JSONDecodable {
     
     static func decode(_ json: JSON) throws -> ProductionCompany {
-        return ProductionCompany(id: json["id"].intValue,
-                                 name: json["name"].stringValue)
+        return ProductionCompany(id: json["id"].int,
+                                 name: json["name"].string)
     }
 }

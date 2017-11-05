@@ -7,10 +7,10 @@ extension JSONDecodable {
     static func decode(_ jsonArray: [JSON]?) throws -> [Self]? {
         guard let jsonArray = jsonArray else { return nil }
         
-        return jsonArray.map({ self.decode($0) })
+        return try jsonArray.map({ try self.decode($0) })
     }
     
     static func decode(_ jsonArray: [JSON]) throws -> [Self] {
-        return jsonArray.map({ self.decode($0) })
+        return try jsonArray.map({ try self.decode($0) })
     }
 }

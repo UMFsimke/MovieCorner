@@ -1,8 +1,8 @@
 import Foundation
 
 struct Language {
-    let isoCode: String
-    let name: String
+    let isoCode: String?
+    let name: String?
 }
 
 //MARK: JSON Decodable
@@ -10,7 +10,7 @@ struct Language {
 extension Language: JSONDecodable {
     
     static func decode(_ json: JSON) throws -> Language {
-        return Language(isoCode: json["iso_639_1"].stringValue,
-                        name: json["name"].stringValue)
+        return Language(isoCode: json["iso_639_1"].string,
+                        name: json["name"].string)
     }
 }
