@@ -9,11 +9,24 @@
 struct Configuration {
     fileprivate let configuration: ApplicationConfiguration
     
-    init(configuration: ApplicationConfiguration = Configuration.currentConfiguration) {
+    fileprivate init(configuration: ApplicationConfiguration = Configuration.currentConfiguration) {
         self.configuration = configuration
     }
 }
 
+//MARK: Singleton
+extension Configuration {
+    private static var _instance: Configuration?
+    
+    public static var instance: Configuration {
+        guard let instance = _instance else {
+            _instance = Configuration()
+            return _instance
+        }
+        
+        return instance
+    }
+}
 //MARK: Application configuration variables
 
 extension Configuration {
