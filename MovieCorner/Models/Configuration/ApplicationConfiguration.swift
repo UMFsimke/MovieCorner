@@ -12,6 +12,10 @@ protocol ApplicationConfiguration {
 }
 
 extension ApplicationConfiguration {
+    var apiHost: String {
+        return "https://api.themoviedb.org/3/"
+    }
+    
     var apiKey: String {
         return ""
     }

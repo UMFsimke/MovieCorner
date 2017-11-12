@@ -1,5 +1,9 @@
 struct TestConfiguration: ApplicationConfiguration {
     
-    var apiKey: String = "testApiKey"
-    var apiHost: String = "http://localhost:9000"
+    var apiKey: String {
+        return "testApiKey"
+    }
+    var apiHost: String {
+        return "http://localhost:9000"
+    }
 }
