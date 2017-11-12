@@ -24,6 +24,9 @@
 		3046B5BC1FA630C6008A9C8D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046B5BB1FA630C6008A9C8D /* Movie.swift */; };
 		306B07511FB72AAF0012E954 /* ApplicationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07501FB72AAF0012E954 /* ApplicationConfiguration.swift */; };
 		306B07531FB87AB80012E954 /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07521FB87AB80012E954 /* TestConfiguration.swift */; };
+		306B07551FB87C5E0012E954 /* ConfigurationFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */; };
+		306B07581FB87CCA0012E954 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07571FB87CCA0012E954 /* Configuration.swift */; };
+		306B075A1FB87E490012E954 /* ReleaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07591FB87E490012E954 /* ReleaseConfiguration.swift */; };
 		3091F9001FAB8D5D00E1CCD8 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */; };
 		3091F9021FAB8DCD00E1CCD8 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */; };
 		3091F9041FAB8DFE00E1CCD8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9031FAB8DFE00E1CCD8 /* Country.swift */; };
@@ -53,6 +56,9 @@
 		3046B5BB1FA630C6008A9C8D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		306B07501FB72AAF0012E954 /* ApplicationConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationConfiguration.swift; sourceTree = "<group>"; };
 		306B07521FB87AB80012E954 /* TestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfiguration.swift; sourceTree = "<group>"; };
+		306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationFlavor.swift; sourceTree = "<group>"; };
+		306B07571FB87CCA0012E954 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		306B07591FB87E490012E954 /* ReleaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseConfiguration.swift; sourceTree = "<group>"; };
 		3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
 		3091F9031FAB8DFE00E1CCD8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -177,6 +183,9 @@
 			children = (
 				306B07501FB72AAF0012E954 /* ApplicationConfiguration.swift */,
 				306B07521FB87AB80012E954 /* TestConfiguration.swift */,
+				306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */,
+				306B07571FB87CCA0012E954 /* Configuration.swift */,
+				306B07591FB87E490012E954 /* ReleaseConfiguration.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -334,12 +343,15 @@
 			files = (
 				300F69F31FAF3938003A2BE9 /* PaginatedResponse.swift in Sources */,
 				3046B5AB1FA62E67008A9C8D /* ViewController.swift in Sources */,
+				306B07551FB87C5E0012E954 /* ConfigurationFlavor.swift in Sources */,
 				300F69FB1FAF3F5C003A2BE9 /* String+JSONDecodable.swift in Sources */,
 				300F69F01FAF3491003A2BE9 /* Collection.swift in Sources */,
 				300F69FD1FAF6BC5003A2BE9 /* API.swift in Sources */,
 				3046B5A91FA62E67008A9C8D /* AppDelegate.swift in Sources */,
 				3046B5BC1FA630C6008A9C8D /* Movie.swift in Sources */,
 				3091F9071FAB8E5800E1CCD8 /* Language.swift in Sources */,
+				306B07581FB87CCA0012E954 /* Configuration.swift in Sources */,
+				306B075A1FB87E490012E954 /* ReleaseConfiguration.swift in Sources */,
 				300F69F81FAF3DE9003A2BE9 /* ImageConfiguration.swift in Sources */,
 				306B07511FB72AAF0012E954 /* ApplicationConfiguration.swift in Sources */,
 				306B07531FB87AB80012E954 /* TestConfiguration.swift in Sources */,
