@@ -6,4 +6,8 @@
 //  Copyright © 2017 Slick. All rights reserved.
 //
 
-import Foundation
+enum ConfigurationFlavor: String {
+    case Beta
+    case Test
+    case Release
+}
