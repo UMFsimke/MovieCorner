@@ -1,10 +1,6 @@
 import Foundation
 enum API {
     
-    struct Config {
-        static let apiKey = ""
-    }
-    
     //MARK: Movies
     case getPopularMovies(language: String, page: Int, region: String)
     case getMovieDetails(id: Int, language: String)
@@ -72,7 +68,7 @@ extension API {
     }
     
     private static var defaultParameters: HTTPParameters {
-        return [Parameter.apiKey: API.Config.apiKey]
+        return [Parameter.apiKey: Configuration.instance.apiKey]
     }
     
     private static var noParameters: HTTPParameters {
