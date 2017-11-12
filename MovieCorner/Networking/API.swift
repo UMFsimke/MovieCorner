@@ -82,17 +82,17 @@ extension API {
              let .getNowPlayingMovies(language, page, region),
              let .getTopRatedMovies(language, page, region),
              let .getUpcomingMovies(language, page, region):
-            return defaultParameters + [Parameter.language: language, Parameter.page: page, Parameter.region: region]
+            return API.defaultParameters + [Parameter.language: language, Parameter.page: page, Parameter.region: region]
         case .getMovieDetails(_, let language),
              .getImages(_, let language),
              .getVideos(_, let language):
-            return defaultParameters + [Parameter.language: language]
+            return API.defaultParameters + [Parameter.language: language]
         case let .getRecommendedMovies(_, language, page),
              let .getSimilarMovies(_, language, page),
              let .getReviews(_, language, page):
-            return defaultParameters + [Parameter.language: language, Parameter.page: page]
+            return API.defaultParameters + [Parameter.language: language, Parameter.page: page]
         default:
-            return defaultParameters + API.noParameters
+            return API.defaultParameters + API.noParameters
         }
     }
 }

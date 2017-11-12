@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.5.1)
+  - DynamicColor (3.3)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - DynamicColor (~> 3.3)
   - SwiftyJSON (~> 3.1)
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  DynamicColor: 3cdaa1e01c16e93ba744e0630f768373e0fc7a7d
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 8776abe9db49448b0a52326922fe960c860e1b5a
+PODFILE CHECKSUM: ef4e63e224dbce26b1dcf84750e103282ee71339
 
 COCOAPODS: 1.2.1

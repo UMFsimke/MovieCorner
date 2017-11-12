@@ -21,7 +21,7 @@ extension Configuration {
     public static var instance: Configuration {
         guard let instance = _instance else {
             _instance = Configuration()
-            return _instance
+            return _instance!
         }
         
         return instance

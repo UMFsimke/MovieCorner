@@ -29,6 +29,9 @@
 		306B075A1FB87E490012E954 /* ReleaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07591FB87E490012E954 /* ReleaseConfiguration.swift */; };
 		306B075C1FB886AC0012E954 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B075B1FB886AC0012E954 /* ApiConstants.swift */; };
 		306B075F1FB8C4E50012E954 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B075E1FB8C4E50012E954 /* SplashViewController.swift */; };
+		306B07611FB8CA740012E954 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07601FB8CA740012E954 /* Color.swift */; };
+		306B07631FB8CD1B0012E954 /* Dictionary+AdditionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07621FB8CD1B0012E954 /* Dictionary+AdditionOperator.swift */; };
+		306B07651FB8CDCE0012E954 /* Dictionary+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07641FB8CDCE0012E954 /* Dictionary+Append.swift */; };
 		3091F9001FAB8D5D00E1CCD8 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */; };
 		3091F9021FAB8DCD00E1CCD8 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */; };
 		3091F9041FAB8DFE00E1CCD8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9031FAB8DFE00E1CCD8 /* Country.swift */; };
@@ -63,6 +66,9 @@
 		306B07591FB87E490012E954 /* ReleaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseConfiguration.swift; sourceTree = "<group>"; };
 		306B075B1FB886AC0012E954 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 		306B075E1FB8C4E50012E954 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		306B07601FB8CA740012E954 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		306B07621FB8CD1B0012E954 /* Dictionary+AdditionOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+AdditionOperator.swift"; sourceTree = "<group>"; };
+		306B07641FB8CDCE0012E954 /* Dictionary+Append.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Append.swift"; sourceTree = "<group>"; };
 		3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
 		3091F9031FAB8DFE00E1CCD8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				306B074F1FB72A9C0012E954 /* Configuration */,
+				306B07601FB8CA740012E954 /* Color.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				300F69FA1FAF3F5C003A2BE9 /* String+JSONDecodable.swift */,
+				306B07621FB8CD1B0012E954 /* Dictionary+AdditionOperator.swift */,
+				306B07641FB8CDCE0012E954 /* Dictionary+Append.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -368,13 +377,16 @@
 				306B075A1FB87E490012E954 /* ReleaseConfiguration.swift in Sources */,
 				300F69F81FAF3DE9003A2BE9 /* ImageConfiguration.swift in Sources */,
 				306B07511FB72AAF0012E954 /* ApplicationConfiguration.swift in Sources */,
+				306B07651FB8CDCE0012E954 /* Dictionary+Append.swift in Sources */,
 				306B07531FB87AB80012E954 /* TestConfiguration.swift in Sources */,
 				300F69F51FAF3CD3003A2BE9 /* ApiConfiguration.swift in Sources */,
 				306B075F1FB8C4E50012E954 /* SplashViewController.swift in Sources */,
 				306B075C1FB886AC0012E954 /* ApiConstants.swift in Sources */,
 				300F6A021FAF8CEB003A2BE9 /* HTTPParameters.swift in Sources */,
+				306B07611FB8CA740012E954 /* Color.swift in Sources */,
 				3091F9021FAB8DCD00E1CCD8 /* ProductionCompany.swift in Sources */,
 				3091F9041FAB8DFE00E1CCD8 /* Country.swift in Sources */,
+				306B07631FB8CD1B0012E954 /* Dictionary+AdditionOperator.swift in Sources */,
 				300F6A001FAF8CD7003A2BE9 /* HTTPMethod.swift in Sources */,
 				3091F9001FAB8D5D00E1CCD8 /* Genre.swift in Sources */,
 				3091F90D1FAB944D00E1CCD8 /* JSON.swift in Sources */,
@@ -448,8 +460,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -462,9 +476,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MovieCorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simicaleksandar.MovieCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -523,6 +539,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 			};
 			name = Beta;
 		};
@@ -534,9 +552,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MovieCorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simicaleksandar.MovieCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Beta;
@@ -595,6 +616,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 			};
 			name = Test;
 		};
@@ -606,9 +629,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MovieCorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simicaleksandar.MovieCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;

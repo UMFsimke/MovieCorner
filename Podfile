@@ -8,6 +8,7 @@ target 'MovieCorner' do
   # Pods for MovieCorner
   pod 'SwiftyJSON', '~> 3.1'
   pod 'Alamofire', '~> 4.5'
+  pod 'DynamicColor', '~> 3.3'
 end
 
 post_install do |installer|
