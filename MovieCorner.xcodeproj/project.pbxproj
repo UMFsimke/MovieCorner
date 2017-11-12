@@ -27,6 +27,7 @@
 		306B07551FB87C5E0012E954 /* ConfigurationFlavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */; };
 		306B07581FB87CCA0012E954 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07571FB87CCA0012E954 /* Configuration.swift */; };
 		306B075A1FB87E490012E954 /* ReleaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B07591FB87E490012E954 /* ReleaseConfiguration.swift */; };
+		306B075C1FB886AC0012E954 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B075B1FB886AC0012E954 /* ApiConstants.swift */; };
 		3091F9001FAB8D5D00E1CCD8 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */; };
 		3091F9021FAB8DCD00E1CCD8 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */; };
 		3091F9041FAB8DFE00E1CCD8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091F9031FAB8DFE00E1CCD8 /* Country.swift */; };
@@ -59,6 +60,7 @@
 		306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationFlavor.swift; sourceTree = "<group>"; };
 		306B07571FB87CCA0012E954 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		306B07591FB87E490012E954 /* ReleaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseConfiguration.swift; sourceTree = "<group>"; };
+		306B075B1FB886AC0012E954 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 		3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		3091F9011FAB8DCD00E1CCD8 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
 		3091F9031FAB8DFE00E1CCD8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				306B07541FB87C5E0012E954 /* ConfigurationFlavor.swift */,
 				306B07571FB87CCA0012E954 /* Configuration.swift */,
 				306B07591FB87E490012E954 /* ReleaseConfiguration.swift */,
+				306B075B1FB886AC0012E954 /* ApiConstants.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				306B07511FB72AAF0012E954 /* ApplicationConfiguration.swift in Sources */,
 				306B07531FB87AB80012E954 /* TestConfiguration.swift in Sources */,
 				300F69F51FAF3CD3003A2BE9 /* ApiConfiguration.swift in Sources */,
+				306B075C1FB886AC0012E954 /* ApiConstants.swift in Sources */,
 				300F6A021FAF8CEB003A2BE9 /* HTTPParameters.swift in Sources */,
 				3091F9021FAB8DCD00E1CCD8 /* ProductionCompany.swift in Sources */,
 				3091F9041FAB8DFE00E1CCD8 /* Country.swift in Sources */,

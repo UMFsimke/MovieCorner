@@ -17,6 +17,6 @@ extension ApplicationConfiguration {
     }
     
     var apiKey: String {
-        return ""
+        return ApiConstants.apiKey
     }
 }
