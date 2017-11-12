@@ -98,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				306B074F1FB72A9C0012E954 /* Configuration */,
-				300F69F21FAF3938003A2BE9 /* PaginatedResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +166,7 @@
 		3046B5BA1FA630AC008A9C8D /* DomainModels */ = {
 			isa = PBXGroup;
 			children = (
+				300F69F21FAF3938003A2BE9 /* PaginatedResponse.swift */,
 				300F69F61FAF3DB6003A2BE9 /* ApiConfiguration */,
 				3046B5BB1FA630C6008A9C8D /* Movie.swift */,
 				3091F8FF1FAB8D5D00E1CCD8 /* Genre.swift */,
