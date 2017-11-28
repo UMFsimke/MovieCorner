@@ -9,6 +9,7 @@
 protocol ApplicationConfiguration {
     var apiHost: String { get }
     var apiKey: String { get }
+    var appName: String { get }
 }
 
 extension ApplicationConfiguration {
@@ -18,5 +19,9 @@ extension ApplicationConfiguration {
     
     var apiKey: String {
         return ApiConstants.apiKey
+    }
+    
+    var appName: String {
+        return "Movie Corner"
     }
 }

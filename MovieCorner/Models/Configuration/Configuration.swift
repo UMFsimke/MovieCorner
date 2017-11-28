@@ -5,6 +5,7 @@
 //  Created by Aleksandar Simic on 11/12/17.
 //  Copyright © 2017 Slick. All rights reserved.
 //
+import Foundation
 
 struct Configuration {
     fileprivate let configuration: ApplicationConfiguration
@@ -27,6 +28,7 @@ extension Configuration {
         return instance
     }
 }
+
 //MARK: Application configuration variables
 
 extension Configuration {
@@ -36,6 +38,10 @@ extension Configuration {
     
     public var apiKey: String {
         return configuration.apiKey
+    }
+    
+    public var appName: String {
+        return configuration.appName
     }
 }
 

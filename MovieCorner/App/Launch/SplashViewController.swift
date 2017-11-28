@@ -22,6 +22,14 @@ class SplashViewController: UIViewController {
 extension SplashViewController {
     
     fileprivate func setupUi() {
-        
+        self.view.backgroundColor = .pitchBlack
+        setupTitle()
+    }
+    
+    private func setupTitle() {
+        let title = UILabel()
+        title.textColor = .white
+        title.text = Configuration.instance.appName.uppercased()
+        self.view.addSubview(title)
     }
 }
